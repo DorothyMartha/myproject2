@@ -1,0 +1,45 @@
+ .box{
+   width: 400px;
+   height: 400px;
+   margin: 20px auto;
+   padding: 100px;
+   font-size: medium;
+   text-align: center;
+   border: 1px;
+   position: relative;
+ }
+.item1,.item2,.item3,.item4,.item5{
+  width: 200px;
+  height: 200px;
+}
+.item1{
+  background-color: lightpink;
+  position: absolute;
+  left: 400px;
+  bottom: 0px
+}
+.item2{
+  background-color: lightgrey;
+  position: absolute;
+  left: 00px;
+  top: 0px
+}
+.item3{
+  background-color: royalblue;
+  position: absolute;
+  left: 400px;
+  top: 0px;
+}
+.item4{
+  background-color: rgb(103, 142, 226);
+  position: absolute;
+  bottom: 0px;
+  left: 00px;
+
+}
+.item5{
+  background-color: rgb(201, 147, 226);
+  position: absolute;
+  bottom:200px;
+  right: 200px;
+}
